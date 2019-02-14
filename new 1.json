@@ -1,0 +1,100 @@
+{
+    "_declaration": {
+        "_attributes": {
+            "version": "1.0",
+            "encoding": "UTF-8"
+        }
+    },
+    "response": {
+        "_attributes": {
+            "xmlns:xsd": "http://www.w3.org/2001/XMLSchema",
+            "xmlns:xsi": "http://www.w3.org/2001/XML-Schema-instance",
+            "version": "1.2",
+            "xsi:noNamespaceSchemaLocation": "http://aviationweather.gov/adds/schema/metar1_2.xsd"
+        },
+        "request_index": {
+            "_text": "37331785"
+        },
+        "data_source": {
+            "_attributes": {
+                "name": "metars"
+            }
+        },
+        "request": {
+            "_attributes": {
+                "type": "retrieve"
+            }
+        },
+        "errors": {},
+        "warnings": {},
+        "time_taken_ms": {
+            "_text": "5"
+        },
+        "data": {
+            "_attributes": {
+                "num_results": "1"
+            },
+            "METAR": {
+                "raw_text": {
+                    "_text": "KDEN 100453Z 15009KT 10SM FEW200 19/08 A3027 RMK AO2 SLP167 T01890083 $"
+                },
+                "station_id": {
+                    "_text": "KDEN"
+                },
+                "observation_time": {
+                    "_text": "2018-08-10T04:53:00Z"
+                },
+                "latitude": {
+                    "_text": "39.85"
+                },
+                "longitude": {
+                    "_text": "-104.65"
+                },
+                "temp_c": {
+                    "_text": "18.9"
+                },
+                "dewpoint_c": {
+                    "_text": "8.3"
+                },
+                "wind_dir_degrees": {
+                    "_text": "150"
+                },
+                "wind_speed_kt": {
+                    "_text": "9"
+                },
+                "visibility_statute_mi": {
+                    "_text": "10.0"
+                },
+                "altim_in_hg": {
+                    "_text": "30.268702"
+                },
+                "sea_level_pressure_mb": {
+                    "_text": "1016.7"
+                },
+                "quality_control_flags": {
+                    "auto_station": {
+                        "_text": "TRUE"
+                    },
+                    "maintenance_indicator_on": {
+                        "_text": "TRUE"
+                    }
+                },
+                "sky_condition": {
+                    "_attributes": {
+                        "sky_cover": "FEW",
+                        "cloud_base_ft_agl": "20000"
+                    }
+                },
+                "flight_category": {
+                    "_text": "VFR"
+                },
+                "metar_type": {
+                    "_text": "METAR"
+                },
+                "elevation_m": {
+                    "_text": "1640.0"
+                }
+            }
+        }
+    }
+}
